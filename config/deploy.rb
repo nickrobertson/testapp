@@ -1,4 +1,4 @@
-server '172.19.64.67', port: 7171, roles: [:web, :app, :db], primary: true
+server '172.19.64.64', port: 7171, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:nickrobertson/testapp.git'
 set :application,     'testapp'
